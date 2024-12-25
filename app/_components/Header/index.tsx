@@ -1,21 +1,20 @@
 import Image from "next/image";
+import Link from "next/link";
 import styles from "./index.module.css";
 
 export default function Header()  {
   return (
     <header className={styles.header}>
-      <h1 className={styles.logoh1}>
-        <a href="/" className={styles.logoLink}>
-          <Image
+        <Link href="/" className={styles.logoLink}>
+        <Image
             src="/logo.svg"
             alt="Flakeframes"
             className={styles.logo}
-            width={149}
-            height={32}
+            width={52}
+            height={414}
             priority
           />
-        </a>
-      </h1>      
+        </Link>   
     </header>
   );
 }

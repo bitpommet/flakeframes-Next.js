@@ -1,3 +1,4 @@
+import Link from "next/link";
 import styles from "./index.module.css";
 
 export default function Footer() {
@@ -6,24 +7,18 @@ export default function Footer() {
       <nav className={styles.nav}>
         <ul className={styles.items}>
           <li className={styles.item}>
-            <a href="/">ホーム</a>
+            <Link href="/">ホーム</Link>
           </li>
           <li className={styles.item}>
-            <a href="/blog">ブログ</a>
-          </li>
-          <li className={styles.item}>
-            <a href="/flakes">ひとひら</a>
-          </li>
-          <li className={styles.item}>
-            <a href="/about">Flakeframesについて</a>
+            <Link href="/about">Flakeframesについて</Link>
           </li>
         </ul>
         <ul className={styles.items}>
           <li className={styles.item}>
-            <a href="/contact">お問い合わせ</a>
+            <Link href="/contact">お問い合わせ</Link>
           </li>
           <li className={styles.item}>
-            <a href="/privacy-policy">プライバシーポリシー</a>
+            <Link href="/privacy-policy">プライバシーポリシー</Link>
           </li>
         </ul>
       </nav>

@@ -1,0 +1,9 @@
+.container {
+  text-align: center;
+}
+
+.title {
+  font-size: var(--fs-2xl);
+  font-weight: 600;
+}
+

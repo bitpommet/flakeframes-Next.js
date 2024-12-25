@@ -1,0 +1,9 @@
+.image {
+  width: 256px;
+  height: auto;
+}
+
+.title {
+  font-size: var(--fs-base);
+  font-weight: 600;
+}
